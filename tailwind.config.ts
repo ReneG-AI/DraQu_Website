@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -52,6 +53,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'dragon-fire': 'hsl(var(--dragon-fire))',
+				'dragon-ember': 'hsl(var(--dragon-ember))',
+				'mystic-purple': 'hsl(var(--mystic-purple))',
+				'ethereal-blue': 'hsl(var(--ethereal-blue))',
+				'ancient-gold': 'hsl(var(--ancient-gold))',
+				'shadow-deep': 'hsl(var(--shadow-deep))',
+				'mist-light': 'hsl(var(--mist-light))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +70,22 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-dragon': 'var(--gradient-dragon)',
+				'gradient-mystic': 'var(--gradient-mystic)',
+				'gradient-ethereal': 'var(--gradient-ethereal)',
+				'gradient-hero': 'var(--gradient-hero)'
+			},
+			boxShadow: {
+				'glow-dragon': 'var(--glow-dragon)',
+				'glow-ethereal': 'var(--glow-ethereal)',
+				'epic': 'var(--shadow-epic)',
+				'card': 'var(--shadow-card)'
+			},
+			transitionProperty: {
+				'magical': 'var(--transition-magical)',
+				'glow': 'var(--transition-glow)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
