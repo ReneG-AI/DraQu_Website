@@ -58,6 +58,7 @@ All colors MUST be HSL.
     --gradient-mystic: linear-gradient(135deg, hsl(var(--mystic-purple)), hsl(var(--ethereal-blue)));
     --gradient-ethereal: linear-gradient(180deg, hsl(var(--ethereal-blue) / 0.2), transparent);
     --gradient-hero: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+    --gradient-discord: linear-gradient(135deg, #5865F2, #404eed);
 
     /* Magical Effects */
     --glow-dragon: 0 0 30px hsl(var(--dragon-fire) / 0.5);

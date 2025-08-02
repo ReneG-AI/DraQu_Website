@@ -1,28 +1,31 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { useTranslation } from 'react-i18next';
 
 const GameFeatures = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
-      title: "Cooperative Strategy",
-      description: "Work together with fellow adventurers to overcome mystical challenges and unlock the secrets of elemental magic.",
+      titleKey: "cooperativeTitle",
+      descriptionKey: "cooperativeDesc",
       icon: "🤝",
       gradient: "bg-gradient-mystic"
     },
     {
-      title: "Dragon Companions",
-      description: "Summon and bond with majestic dragons, each wielding unique elemental powers to aid in your quest.",
+      titleKey: "dragonTitle",
+      descriptionKey: "dragonDesc",
       icon: "🐉",
       gradient: "bg-gradient-dragon"
     },
     {
-      title: "Elemental Magic",
-      description: "Master the four elements - Fire, Water, Earth, and Air - as you weave spells through strategic card play.",
+      titleKey: "magicTitle",
+      descriptionKey: "magicDesc",
       icon: "✨",
       gradient: "bg-gradient-ethereal"
     },
     {
-      title: "Epic Campaign",
-      description: "Journey through an immersive story filled with ancient mysteries, magical creatures, and legendary artifacts.",
+      titleKey: "epicTitle",
+      descriptionKey: "epicDesc",
       icon: "📖",
       gradient: "bg-gradient-mystic"
     }
@@ -36,10 +39,10 @@ const GameFeatures = () => {
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Discover the Magic
+            {t('featuresTitle')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Experience a card game like no other, where cooperation and strategy meet in a world of dragons and elemental wonder.
+            {t('featuresDesc')}
           </p>
         </div>
         
@@ -54,12 +57,12 @@ const GameFeatures = () => {
                   {feature.icon}
                 </div>
                 <CardTitle className="text-xl font-bold text-foreground">
-                  {feature.title}
+                  {t(feature.titleKey)}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-muted-foreground text-center leading-relaxed">
-                  {feature.description}
+                  {t(feature.descriptionKey)}
                 </CardDescription>
               </CardContent>
             </Card>

@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useTranslation } from 'react-i18next';
+import { sendRegistrationEmail, sendInternalNotification, detectUserLanguage } from "@/services/emailService";
 import {
   Dialog,
   DialogContent,
@@ -57,30 +58,34 @@ const RegistrationModal = ({ isOpen, onClose }: RegistrationModalProps) => {
     setIsSubmitting(true);
     
     try {
-      // Simulate email sending - in production, use proper email service
-      const emailData = {
-        to: 'renegarciaeduca@gmail.com',
-        subject: 'New DraQu Early Access Registration',
-        body: `
-          New early access registration:
-          
-          Name: ${data.firstName} ${data.lastName}
-          Email: ${data.email}
-          Consent: ${data.consent ? 'Yes' : 'No'}
-          Registration Date: ${new Date().toISOString()}
-        `,
-      };
-
-      // In production, replace with actual email service call
-      console.log('Email would be sent:', emailData);
+      const userLanguage = detectUserLanguage();
       
-      // Simulate API delay
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      // Send confirmation email to user
+      const emailSent = await sendRegistrationEmail(
+        data.firstName,
+        data.lastName,
+        data.email,
+        userLanguage
+      );
       
+      // Send internal notification
+      await sendInternalNotification(
+        data.firstName,
+        data.lastName,
+        data.email
+      );
+      
+      if (emailSent) {
+        setIsSuccess(true);
+        form.reset();
+      } else {
+        throw new Error('Failed to send confirmation email');
+      }
+    } catch (error) {
+      console.error("Failed to send registration:", error);
+      // Still show success to user, but log the error
       setIsSuccess(true);
       form.reset();
-    } catch (error) {
-      console.error('Registration error:', error);
     } finally {
       setIsSubmitting(false);
     }

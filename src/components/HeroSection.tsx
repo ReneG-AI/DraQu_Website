@@ -31,17 +31,17 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        {/* Main Title */}
+        {/* Main Title - Always in English */}
         <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-dragon bg-clip-text text-transparent leading-tight">
           DraQu
         </h1>
         
-        {/* Subtitle */}
+        {/* Subtitle - Always in English */}
         <h2 className="text-2xl md:text-4xl font-semibold text-ancient-gold mb-4">
           Awakening of the Elements
         </h2>
         
-        {/* Description */}
+        {/* Description - Always in English */}
         <p className="text-lg md:text-xl text-mist-light mb-8 max-w-2xl mx-auto leading-relaxed">
           Enter a world where dragons soar and elemental magic flows through every card. 
           Cooperate with fellow adventurers in this mystical card game inspired by ancient wisdom.
@@ -72,7 +72,7 @@ const HeroSection = () => {
       </div>
       
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-mist-light animate-bounce">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-mist-light animate-bounce-subtle cursor-pointer hover:text-ancient-gold transition-colors duration-300">
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
