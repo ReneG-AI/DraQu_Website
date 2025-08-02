@@ -43,8 +43,9 @@ const HeroSection = () => {
         
         {/* Description - Always in English */}
         <p className="text-lg md:text-xl text-mist-light mb-8 max-w-2xl mx-auto leading-relaxed">
-          Enter a world where dragons soar and elemental magic flows through every card. 
-          Cooperate with fellow adventurers in this mystical card game inspired by ancient wisdom.
+          Become a dragon trainer and join a living legend.
+          Unite with fellow adventurers and cooperate in a unique card game where magic, intuition, and teamwork create stories you'll never forget.
+          Inspired by Hanabi—are you ready to enter the tavern?
         </p>
         
         {/* Action Buttons */}
@@ -66,7 +67,7 @@ const HeroSection = () => {
         <div className="mt-8">
           <span className="inline-flex items-center px-4 py-2 rounded-full bg-mystic-purple/20 border border-mystic-purple/40 text-sm font-medium text-foreground">
             <span className="w-2 h-2 bg-ethereal-blue rounded-full mr-2 animate-pulse"></span>
-            Coming to Steam Soon
+            {t('comingSoon')}
           </span>
         </div>
       </div>

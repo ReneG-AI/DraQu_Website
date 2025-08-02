@@ -60,7 +60,8 @@ const resources = {
       "contact": "Contact",
       "communityGuidelines": "Community Guidelines",
       "copyright": "© 2025 DraQu Studios. All rights reserved.",
-      "tagline": "Awakening of the Elements - A cooperative card game where dragons and magic await your discovery."
+      "tagline": "Awakening of the Elements - A cooperative card game where dragons and magic await your discovery.",
+      "comingSoon": "Coming to Steam Soon"
     }
   },
   zh: {
