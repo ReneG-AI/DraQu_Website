@@ -38,7 +38,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-primary transition-colors">{t('faq')}</a></li>
               <li><a href="mailto:renegarciaeduca@gmail.com" className="hover:text-primary transition-colors">{t('contactUs')}</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">{t('bugReports')}</a></li>
-              <li><a href="https://discord.gg/xjpnAEBmfy" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{t('community')}</a></li>
+              <li><a href="https://discord.gg/YNyBnuBVWG" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{t('community')}</a></li>
             </ul>
           </div>
           
