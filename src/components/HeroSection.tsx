@@ -36,16 +36,14 @@ const HeroSection = () => {
           DraQu
         </h1>
         
-        {/* Subtitle - Always in English */}
+        {/* Subtitle */}
         <h2 className="text-2xl md:text-4xl font-semibold text-ancient-gold mb-4">
-          Awakening of the Elements
+          {t('heroTitle')}
         </h2>
         
-        {/* Description - Always in English */}
+        {/* Description */}
         <p className="text-lg md:text-xl text-mist-light mb-8 max-w-2xl mx-auto leading-relaxed">
-          Become a dragon trainer and join a living legend.
-          Unite with fellow adventurers and cooperate in a unique card game where magic, intuition, and teamwork create stories you'll never forget.
-          Inspired by Hanabi—are you ready to enter the tavern?
+          {t('heroDescription')}
         </p>
         
         {/* Action Buttons */}

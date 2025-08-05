@@ -12,8 +12,9 @@ const resources = {
       "getEarlyAccess": "Get Early Access",
       
       // Hero Section
-      "heroTitle": "DraQu: Awakening of the Elements",
+      "heroTitle": "Awakening of the Elements",
       "heroSubtitle": "A cooperative card game where dragons and elemental magic shape your destiny. Unite with fellow adventurers in an epic journey through mystical realms.",
+      "heroDescription": "Become a dragon trainer and join a living legend. Unite with fellow adventurers and cooperate in a unique card game where magic, intuition, and teamwork create stories you'll never forget. Inspired by Hanabi—are you ready to enter the tavern?",
       "enterTavern": "Enter the Tavern",
       "watchTrailer": "Watch Trailer",
       
@@ -71,8 +72,9 @@ const resources = {
       "creatures": "生物",
       "community": "社区",
       "getEarlyAccess": "获取抢先体验",
-      "heroTitle": "DraQu: 元素觉醒",
+      "heroTitle": "元素觉醒",
       "heroSubtitle": "一款合作卡牌游戏，龙族和元素魔法塑造你的命运。与冒险者们联手，踏上穿越神秘领域的史诗之旅。",
+      "heroDescription": "成为一名龙族训练师，加入一个传奇。与伙伴冒险者团结合作，体验一款独特的卡牌游戏，魔法、直觉和团队合作创造出难忘的故事。灵感来源于花火——准备好进入酒馆了吗？",
       "enterTavern": "进入酒馆",
       "watchTrailer": "观看预告片",
       "featuresTitle": "史诗冒险等待着你",
@@ -111,7 +113,8 @@ const resources = {
       "contact": "联系",
       "communityGuidelines": "社区准则",
       "copyright": "© 2025 DraQu Studios. 版权所有。",
-      "tagline": "元素觉醒 - 一款合作卡牌游戏，龙族和魔法等待你的发现。"
+      "tagline": "元素觉醒 - 一款合作卡牌游戏，龙族和魔法等待你的发现。",
+      "comingSoon": "即将登陆Steam"
     }
   },
   es: {
@@ -121,8 +124,9 @@ const resources = {
       "creatures": "Criaturas",
       "community": "Comunidad",
       "getEarlyAccess": "Acceso Anticipado",
-      "heroTitle": "DraQu: El Despertar de los Elementos",
+      "heroTitle": "Despertar de los Elementos",
       "heroSubtitle": "Un juego de cartas cooperativo donde los dragones y la magia elemental moldean tu destino. Únete con compañeros aventureros en un viaje épico a través de reinos místicos.",
+      "heroDescription": "Conviértete en un entrenador de dragones y únete a una leyenda viviente. Únete con compañeros aventureros y coopera en un juego de cartas único donde la magia, la intuición y el trabajo en equipo crean historias que nunca olvidarás. Inspirado en Hanabi—¿estás listo para entrar a la taberna?",
       "enterTavern": "Entrar a la Taberna",
       "watchTrailer": "Ver Tráiler",
       "featuresTitle": "Aventuras Épicas Te Esperan",
@@ -161,7 +165,8 @@ const resources = {
       "contact": "Contacto",
       "communityGuidelines": "Guías de la Comunidad",
       "copyright": "© 2025 DraQu Studios. Todos los derechos reservados.",
-      "tagline": "El Despertar de los Elementos - Un juego de cartas cooperativo donde dragones y magia esperan tu descubrimiento."
+      "tagline": "El Despertar de los Elementos - Un juego de cartas cooperativo donde dragones y magia esperan tu descubrimiento.",
+      "comingSoon": "Próximamente en Steam"
     }
   },
   ar: {
@@ -171,8 +176,9 @@ const resources = {
       "creatures": "المخلوقات",
       "community": "المجتمع",
       "getEarlyAccess": "الوصول المبكر",
-      "heroTitle": "DraQu: صحوة العناصر",
+      "heroTitle": "صحوة العناصر",
       "heroSubtitle": "لعبة ورق تعاونية حيث التنانين والسحر العنصري يشكلان مصيرك. انضم مع زملاء المغامرة في رحلة ملحمية عبر العوالم الصوفية.",
+      "heroDescription": "اصبح مدرب تنانين وانضم إلى أسطورة حية. اتحد مع المغامرين الزملاء وتعاون في لعبة أوراق فريدة حيث السحر والحدس والعمل الجماعي يخلقون قصصاً لن تنساها أبداً. مستوحاة من هانابي—هل أنت مستعد لدخول الحانة؟",
       "enterTavern": "ادخل الحانة",
       "watchTrailer": "شاهد الإعلان",
       "featuresTitle": "مغامرات ملحمية في انتظارك",
@@ -211,7 +217,8 @@ const resources = {
       "contact": "اتصال",
       "communityGuidelines": "إرشادات المجتمع",
       "copyright": "© 2025 DraQu Studios. جميع الحقوق محفوظة.",
-      "tagline": "صحوة العناصر - لعبة ورق تعاونية حيث التنانين والسحر في انتظار اكتشافك."
+      "tagline": "صحوة العناصر - لعبة ورق تعاونية حيث التنانين والسحر في انتظار اكتشافك.",
+      "comingSoon": "قريباً على Steam"
     }
   },
   hi: {
@@ -221,8 +228,9 @@ const resources = {
       "creatures": "जीव",
       "community": "समुदाय",
       "getEarlyAccess": "प्रारंभिक पहुँच",
-      "heroTitle": "DraQu: तत्वों का जागरण",
+      "heroTitle": "तत्वों की जागृति",
       "heroSubtitle": "एक सहयोगी कार्ड गेम जहाँ ड्रैगन और तत्व जादू आपकी नियति को आकार देते हैं। रहस्यमय क्षेत्रों के माध्यम से एक महाकाव्य यात्रा में साथी साहसिकों के साथ एकजुट हों।",
+      "heroDescription": "एक ड्रैगन प्रशिक्षक बनें और एक जीवित किंवदंती में शामिल हों। साथी साहसिकों के साथ एकजुट हों और एक अनोखे कार्ड गेम में सहयोग करें जहाँ जादू, अंतर्ज्ञान और टीमवर्क ऐसी कहानियाँ बनाते हैं जिन्हें आप कभी नहीं भूलेंगे। हानाबी से प्रेरित—क्या आप सराय में प्रवेश करने के लिए तैयार हैं?",
       "enterTavern": "सराय में प्रवेश करें",
       "watchTrailer": "ट्रेलर देखें",
       "featuresTitle": "महाकाव्य रोमांच आपका इंतजार कर रहे हैं",
@@ -261,7 +269,8 @@ const resources = {
       "contact": "संपर्क",
       "communityGuidelines": "समुदाय दिशानिर्देश",
       "copyright": "© 2025 DraQu Studios. सभी अधिकार सुरक्षित।",
-      "tagline": "तत्वों का जागरण - एक सहयोगी कार्ड गेम जहाँ ड्रैगन और जादू आपकी खोज का इंतजार कर रहे हैं।"
+      "tagline": "तत्वों का जागरण - एक सहयोगी कार्ड गेम जहाँ ड्रैगन और जादू आपकी खोज का इंतजार कर रहे हैं।",
+      "comingSoon": "जल्द ही Steam पर"
     }
   },
   fr: {
@@ -271,8 +280,9 @@ const resources = {
       "creatures": "Créatures",
       "community": "Communauté",
       "getEarlyAccess": "Accès Anticipé",
-      "heroTitle": "DraQu: L'Éveil des Éléments",
+      "heroTitle": "Éveil des Éléments",
       "heroSubtitle": "Un jeu de cartes coopératif où les dragons et la magie élémentaire façonnent votre destin. Unissez-vous avec des compagnons aventuriers dans un voyage épique à travers des royaumes mystiques.",
+      "heroDescription": "Devenez un dresseur de dragons et rejoignez une légende vivante. Unissez-vous avec des compagnons aventuriers et coopérez dans un jeu de cartes unique où la magie, l'intuition et le travail d'équipe créent des histoires que vous n'oublierez jamais. Inspiré par Hanabi—êtes-vous prêt à entrer dans la taverne?",
       "enterTavern": "Entrer dans la Taverne",
       "watchTrailer": "Voir la Bande-annonce",
       "featuresTitle": "Des Aventures Épiques Vous Attendent",
@@ -311,7 +321,8 @@ const resources = {
       "contact": "Contact",
       "communityGuidelines": "Directives de la Communauté",
       "copyright": "© 2025 DraQu Studios. Tous droits réservés.",
-      "tagline": "L'Éveil des Éléments - Un jeu de cartes coopératif où dragons et magie attendent votre découverte."
+      "tagline": "L'Éveil des Éléments - Un jeu de cartes coopératif où dragons et magie attendent votre découverte.",
+      "comingSoon": "Bientôt sur Steam"
     }
   }
 };
