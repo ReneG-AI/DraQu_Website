@@ -33,7 +33,7 @@ const SocialIcons = ({ variant = 'inline', className = '' }: SocialIconsProps) =
       </a>
 
       <a 
-        href="https://youtube.com/" 
+        href="https://www.youtube.com/@ALTF4STUDIO-y7p3e" 
         target="_blank" 
         rel="noopener noreferrer" 
         aria-label="YouTube"
