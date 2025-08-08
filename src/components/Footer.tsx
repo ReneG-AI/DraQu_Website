@@ -1,19 +1,20 @@
 import { useTranslation } from 'react-i18next';
-import { Button } from "@/components/ui/button";
 import SocialIcons from './SocialIcons';
+import { Link } from 'react-router-dom';
+import { toast } from 'sonner';
 
 const Footer = () => {
   const { t } = useTranslation();
-
+  const handleComingSoon = () => toast(t('comingSoon', { defaultValue: 'Estamos trabajando en esta función' }));
   return (
     <footer className="bg-card border-t border-border/50 py-12">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <div className="text-3xl font-bold bg-gradient-dragon bg-clip-text text-transparent mb-4">
+            <Link to="/" className="text-3xl font-bold bg-gradient-dragon bg-clip-text text-transparent mb-4" aria-label="Go to home">
               DraQu
-            </div>
+            </Link>
             <p className="text-muted-foreground mb-4 max-w-md">
               {t('tagline')}
             </p>
@@ -24,10 +25,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">{t('game')}</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">{t('howToPlay')}</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">{t('systemRequirements')}</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">{t('releaseDate')}</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">{t('steamPage')}</a></li>
+              <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('howToPlay')}</Link></li>
+              <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('systemRequirements')}</Link></li>
+              <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('releaseDate')}</Link></li>
+              <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('steamPage')}</Link></li>
             </ul>
           </div>
           
@@ -35,9 +36,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">{t('support')}</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">{t('faq')}</a></li>
-              <li><a href="mailto:renegarciaeduca@gmail.com" className="hover:text-primary transition-colors">{t('contactUs')}</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">{t('bugReports')}</a></li>
+              <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('faq')}</Link></li>
+              <li><a href="mailto:altf4studio.official@gmail.com" className="hover:text-primary transition-colors">{t('contactUs')}</a></li>
+              <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('bugReports')}</Link></li>
               <li><a href="https://discord.gg/YNyBnuBVWG" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{t('community')}</a></li>
             </ul>
           </div>

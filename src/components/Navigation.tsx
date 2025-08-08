@@ -4,33 +4,38 @@ import { Button } from "@/components/ui/button";
 import LanguageSelector from './LanguageSelector';
 import RegistrationModal from './RegistrationModal';
 import SocialIcons from './SocialIcons';
+import { Link, useNavigate } from 'react-router-dom';
+import { toast } from 'sonner';
 
 const Navigation = () => {
   const { t } = useTranslation();
   const [isRegistrationOpen, setIsRegistrationOpen] = useState(false);
-
+  const navigate = useNavigate();
+  const handleComingSoon = () => {
+    toast(t('comingSoon', { defaultValue: 'Estamos trabajando en esta función' }));
+    navigate('/');
+  };
   return (
     <>
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <div className="text-3xl font-bold bg-gradient-dragon bg-clip-text text-transparent">
+          <Link to="/" className="text-3xl font-bold bg-gradient-dragon bg-clip-text text-transparent" aria-label="Go to home">
             DraQu
-          </div>
+          </Link>
           
           {/* Navigation Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
+            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors" onClick={handleComingSoon}>
               {t('play')}
             </Button>
-            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
+            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors" onClick={handleComingSoon}>
               {t('lore')}
             </Button>
-            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
+            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors" onClick={handleComingSoon}>
               {t('creatures')}
             </Button>
-            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
+            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors" onClick={handleComingSoon}>
               {t('community')}
             </Button>
           </div>
