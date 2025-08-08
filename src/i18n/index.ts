@@ -129,7 +129,23 @@ const resources = {
       "guidelinesHelpOthers": "Help Others: Support fellow community members, share knowledge, and contribute to a positive gaming environment.",
       "guidelinesViolations": "Violations and Consequences",
       "guidelinesViolationsText": "Violations of these guidelines may result in warnings, temporary suspensions, or permanent bans from our community platforms. We reserve the right to take appropriate action to maintain community standards.",
-      "guidelinesContactText": "To report violations or concerns, please contact our moderation team at altf4studio.official@gmail.com."
+      "guidelinesContactText": "To report violations or concerns, please contact our moderation team at altf4studio.official@gmail.com.",
+
+      // FAQ Page
+      "faqPageTitle": "Frequently Asked Questions",
+      "faqMetaDescription": "DraQu FAQ: release, community, world, and how to support the game.",
+      "faqHero": "🔥 Frequently Asked Questions",
+      "faqIntro": "Answers about release timing, community, world-building, and supporting the project.",
+      "faqQuote": "“A solo developer. A world of dragons. One mission: awaken the elements.”",
+      "faqWhenTitle": "When is DraQu: Awakening of the Elements releasing?",
+      "faqWhenAnswer": "As soon as possible. I'm developing the game solo, and while that takes time, I'm pouring all my care and effort into making it fun, playable, and magical from day one. I'd rather release it right and have you love it than rush it.",
+      "faqWhereTitle": "Where can I follow the latest updates?",
+      "faqWhereAnswer": "On our Discord. I'll share progress videos, in-game scenes, and internal tests there. When we start posting updates on Steam, you'll see them there first.",
+      "faqWorldTitle": "What can I expect from the game's world?",
+      "faqWorldAnswer": "More lore is coming soon… but here's a taste: the game is set in a world where dragons have seized control of the elements, and players must cooperate to restore balance at the Tavern of the Elements. Each run challenges the forces ruling this universe.",
+      "faqSupportTitle": "How can I support the project now?",
+      "faqSupportAnswer": "Add it to your Steam wishlist. It's free, helps us a lot, and will notify you when it's ready to play."
+    
     }
   },
   zh: {
@@ -248,7 +264,23 @@ const resources = {
       "guidelinesHelpOthers": "帮助他人：支持社区同伴，分享知识，为积极的游戏环境做出贡献。",
       "guidelinesViolations": "违规和后果",
       "guidelinesViolationsText": "违反这些准则可能导致警告、临时暂停或永久禁止访问我们的社区平台。我们保留采取适当行动维护社区标准的权利。",
-      "guidelinesContactText": "要举报违规或关注的问题，请通过altf4studio.official@gmail.com联系我们的审核团队。"
+      "guidelinesContactText": "要举报违规或关注的问题，请通过altf4studio.official@gmail.com联系我们的审核团队。",
+
+      // FAQ Page
+      "faqPageTitle": "常见问题",
+      "faqMetaDescription": "DraQu 常见问题：发布时间、社区、世界观以及如何支持游戏。",
+      "faqHero": "🔥 常见问题",
+      "faqIntro": "关于发布时间、社区动态、世界观设定以及如何支持项目的解答。",
+      "faqQuote": "“一位独立开发者。一个龙的世界。一项使命：唤醒元素。”",
+      "faqWhenTitle": "DraQu：元素觉醒什么时候发布？",
+      "faqWhenAnswer": "尽快。我正在独立开发这款游戏，这需要时间，但我正在全心投入，力求从第一天起就有趣、可玩并且富有魔力。我更愿意把它打磨好、让你们喜欢，而不是仓促发布。",
+      "faqWhereTitle": "我在哪里可以关注最新动态？",
+      "faqWhereAnswer": "在我们的 Discord。那里我会分享进度视频、游戏场景和内部测试。当我们在 Steam 开始发布更新时，你们也会第一时间在那看到。",
+      "faqWorldTitle": "游戏的世界会是什么样？",
+      "faqWorldAnswer": "我们很快会分享更多背景故事……先给你一个小预告：游戏设定在一个龙掌控元素的世界中，玩家需要合作在元素酒馆中恢复平衡。每一局都是对这个宇宙主宰力量的一次挑战。",
+      "faqSupportTitle": "现在我可以如何支持？",
+      "faqSupportAnswer": "把它加入你的 Steam 愿望单。这是免费的，对我们帮助很大，也会在游戏可玩时第一时间通知你。"
+    
     }
   },
   es: {
@@ -367,7 +399,23 @@ const resources = {
       "guidelinesHelpOthers": "Ayude a Otros: Apoye a compañeros miembros de la comunidad, comparta conocimiento y contribuya a un ambiente de juego positivo.",
       "guidelinesViolations": "Violaciones y Consecuencias",
       "guidelinesViolationsText": "Las violaciones de estas guías pueden resultar en advertencias, suspensiones temporales o prohibiciones permanentes de nuestras plataformas comunitarias. Nos reservamos el derecho de tomar acción apropiada para mantener los estándares de la comunidad.",
-      "guidelinesContactText": "Para reportar violaciones o preocupaciones, contacte a nuestro equipo de moderación en altf4studio.official@gmail.com."
+      "guidelinesContactText": "Para reportar violaciones o preocupaciones, contacte a nuestro equipo de moderación en altf4studio.official@gmail.com.",
+
+      // Página de FAQ
+      "faqPageTitle": "Preguntas Frecuentes",
+      "faqMetaDescription": "Preguntas frecuentes de DraQu: fechas, comunidad, mundo del juego y cómo apoyar el desarrollo.",
+      "faqHero": "🔥 Preguntas Frecuentes",
+      "faqIntro": "Resolvemos tus dudas sobre fechas, comunidad y el mundo de DraQu.",
+      "faqQuote": "“Un solo desarrollador. Un mundo de dragones. Una misión: despertar los elementos.”",
+      "faqWhenTitle": "¿Cuándo sale DraQu: El Despertar de los Elementos?",
+      "faqWhenAnswer": "Lo más pronto posible. Estoy desarrollando el juego yo solo, y aunque eso lleva su tiempo, le estoy poniendo todo mi cariño y esfuerzo para que desde el primer momento sea divertido, jugable y con ese toque mágico que buscamos. Prefiero que salga bien y que os encante, a sacarlo a medias.",
+      "faqWhereTitle": "¿Dónde puedo seguir todo lo nuevo?",
+      "faqWhereAnswer": "En nuestro Discord. Ahí os enseñaré vídeos del progreso, escenas del juego y pruebas internas. Además, cuando empecemos con los updates en Steam, los veréis primero allí.",
+      "faqWorldTitle": "¿Qué puedo esperar del mundo del juego?",
+      "faqWorldAnswer": "Muy pronto os contaremos más del lore… pero aquí va un adelanto: el juego está ambientado en un mundo donde los dragones han tomado el control de los elementos, y los jugadores deberán cooperar para restaurar el equilibrio en la Taberna de los Elementos. Cada partida será un reto contra las fuerzas que gobiernan este universo.",
+      "faqSupportTitle": "¿Cómo puedo apoyar desde ya?",
+      "faqSupportAnswer": "Añádelo a tu lista de deseados en Steam. Es gratis, nos ayuda muchísimo y te avisará cuando esté listo para jugar."
+    
     }
   },
   ar: {
@@ -486,7 +534,23 @@ const resources = {
       "guidelinesHelpOthers": "ساعد الآخرين: ادعم زملاء أعضاء المجتمع، وشارك المعرفة، وساهم في بيئة لعب إيجابية.",
       "guidelinesViolations": "الانتهاكات والعواقب",
       "guidelinesViolationsText": "قد تؤدي انتهاكات هذه الإرشادات إلى تحذيرات أو إيقاف مؤقت أو حظر دائم من منصات مجتمعنا. نحتفظ بالحق في اتخاذ الإجراءات المناسبة للحفاظ على معايير المجتمع.",
-      "guidelinesContactText": "للإبلاغ عن انتهاكات أو مخاوف، يرجى الاتصال بفريق الإشراف لدينا على altf4studio.official@gmail.com."
+      "guidelinesContactText": "للإبلاغ عن انتهاكات أو مخاوف، يرجى الاتصال بفريق الإشراف لدينا على altf4studio.official@gmail.com.",
+
+      // صفحة الأسئلة الشائعة
+      "faqPageTitle": "الأسئلة الشائعة",
+      "faqMetaDescription": "DraQu الأسئلة الشائعة: تاريخ الإصدار، المجتمع، عالم اللعبة وكيفية دعم المشروع.",
+      "faqHero": "🔥 الأسئلة الشائعة",
+      "faqIntro": "إجابات حول موعد الإصدار والمجتمع وعالم اللعبة وكيفية دعم المشروع.",
+      "faqQuote": "“مطوّر واحد. عالم من التنانين. مهمة واحدة: إيقاظ العناصر.”",
+      "faqWhenTitle": "متى سيتم إصدار DraQu: صحوة العناصر؟",
+      "faqWhenAnswer": "في أقرب وقت ممكن. أنا أطور اللعبة بمفردي، ورغم أن ذلك يستغرق وقتاً، إلا أنني أضع كل جهدي واهتمامي لجعلها ممتعة وقابلة للعب ومليئة بالسحر منذ اليوم الأول. أفضل إصدارها بشكل ممتاز لتنال إعجابكم بدلاً من استعجالها.",
+      "faqWhereTitle": "أين يمكنني متابعة كل جديد؟",
+      "faqWhereAnswer": "على Discord الخاص بنا. سأشارك هناك مقاطع تقدم المشروعات ومشاهد من اللعبة واختبارات داخلية. وعندما نبدأ التحديثات على Steam، ستظهر هناك أولاً.",
+      "faqWorldTitle": "ماذا يمكن أن أتوقع من عالم اللعبة؟",
+      "faqWorldAnswer": "سنكشف المزيد من القصة قريباً... لكن إليك لمحة: تدور اللعبة في عالم استولت فيه التنانين على عناصر الطبيعة، ويجب على اللاعبين التعاون لاستعادة التوازن في حانة العناصر. كل جولة ستكون تحدياً ضد القوى التي تحكم هذا الكون.",
+      "faqSupportTitle": "كيف يمكنني دعم المشروع الآن؟",
+      "faqSupportAnswer": "أضف اللعبة إلى قائمة التمنيات على Steam. هذا مجاني، ويساعدنا كثيراً، وسيُعلمك عندما تصبح جاهزة للعب."
+    
     }
   },
   hi: {
@@ -605,7 +669,23 @@ const resources = {
       "guidelinesHelpOthers": "दूसरों की मदद करें: साथी समुदाय सदस्यों का समर्थन करें, ज्ञान साझा करें और एक सकारात्मक गेमिंग वातावरण में योगदान दें।",
       "guidelinesViolations": "उल्लंघन और परिणाम",
       "guidelinesViolationsText": "इन दिशानिर्देशों के उल्लंघन के परिणामस्वरूप चेतावनी, अस्थायी निलंबन या हमारे समुदाय प्लेटफॉर्म से स्थायी प्रतिबंध हो सकता है। हम समुदाय मानकों को बनाए रखने के लिए उपयुक्त कार्रवाई करने का अधिकार सुरक्षित रखते हैं।",
-      "guidelinesContactText": "उल्लंघन या चिंताओं की रिपोर्ट करने के लिए, कृपया altf4studio.official@gmail.com पर हमारी मॉडरेशन टीम से संपर्क करें।"
+      "guidelinesContactText": "उल्लंघन या चिंताओं की रिपोर्ट करने के लिए, कृपया altf4studio.official@gmail.com पर हमारी मॉडरेशन टीम से संपर्क करें.",
+
+      // FAQ पेज
+      "faqPageTitle": "अक्सर पूछे जाने वाले प्रश्न",
+      "faqMetaDescription": "DraQu FAQ: रिलीज़, समुदाय, गेम की दुनिया और परियोजना को समर्थन कैसे दें।",
+      "faqHero": "🔥 अक्सर पूछे जाने वाले प्रश्न",
+      "faqIntro": "रिलीज़ समय, समुदाय, विश्व-निर्माण और समर्थन से जुड़े उत्तर।",
+      "faqQuote": "“एक अकेला डेवलपर। ड्रैगनों की दुनिया। एक मिशन: तत्वों को जगाना।”",
+      "faqWhenTitle": "DraQu: तत्वों की जागृति कब रिलीज़ होगी?",
+      "faqWhenAnswer": "जितनी जल्दी हो सके। मैं यह गेम अकेले विकसित कर रहा हूँ और इसमें समय लगता है, लेकिन मैं पहले दिन से इसे मज़ेदार, खेलने योग्य और जादुई बनाने के लिए अपना पूरा ध्यान और प्रयास दे रहा हूँ। मैं इसे जल्दबाज़ी में नहीं बल्कि सही तरीके से जारी करना पसंद करूँगा।",
+      "faqWhereTitle": "मैं नवीनतम अपडेट कहाँ देख सकता हूँ?",
+      "faqWhereAnswer": "हमारे Discord पर। वहाँ मैं प्रगति के वीडियो, गेम के दृश्य और आंतरिक परीक्षण साझा करूँगा। जब हम Steam पर अपडेट पोस्ट करना शुरू करेंगे, तो आप उन्हें सबसे पहले वहीं देखेंगे।",
+      "faqWorldTitle": "गेम की दुनिया से क्या उम्मीद कर सकता/सकती हूँ?",
+      "faqWorldAnswer": "हम जल्द ही और lore साझा करेंगे… लेकिन यहाँ एक झलक है: गेम एक ऐसी दुनिया में सेट है जहाँ ड्रैगनों ने तत्वों पर नियंत्रण कर लिया है, और खिलाड़ियों को तत्वों के शराबखाने में संतुलन बहाल करने के लिए सहयोग करना होगा। हर रन इस ब्रह्मांड को शासित करने वाली शक्तियों के खिलाफ एक चुनौती होगी।",
+      "faqSupportTitle": "मैं अभी परियोजना का समर्थन कैसे कर सकता/सकती हूँ?",
+      "faqSupportAnswer": "इसे अपनी Steam विशलिस्ट में जोड़ें। यह मुफ्त है, हमें बहुत मदद करता है, और जब यह खेलने के लिए तैयार होगा तो आपको सूचित करेगा।"
+    
     }
   },
   fr: {
@@ -724,7 +804,23 @@ const resources = {
       "guidelinesHelpOthers": "Aidez les Autres : Soutenez vos compagnons membres de la communauté, partagez les connaissances et contribuez à un environnement de jeu positif.",
       "guidelinesViolations": "Violations et Conséquences",
       "guidelinesViolationsText": "Les violations de ces directives peuvent entraîner des avertissements, des suspensions temporaires ou des interdictions permanentes de nos plateformes communautaires. Nous nous réservons le droit de prendre les mesures appropriées pour maintenir les standards de la communauté.",
-      "guidelinesContactText": "Pour signaler des violations ou préoccupations, contactez notre équipe de modération à altf4studio.official@gmail.com."
+      "guidelinesContactText": "Pour signaler des violations ou préoccupations, contactez notre équipe de modération à altf4studio.official@gmail.com.",
+
+      // Page FAQ
+      "faqPageTitle": "Foire aux Questions",
+      "faqMetaDescription": "FAQ de DraQu : sortie, communauté, univers du jeu et comment soutenir le projet.",
+      "faqHero": "🔥 Foire aux Questions",
+      "faqIntro": "Réponses sur la date de sortie, la communauté, l'univers et le soutien au projet.",
+      "faqQuote": "« Un seul développeur. Un monde de dragons. Une mission : éveiller les éléments. »",
+      "faqWhenTitle": "Quand sort DraQu : L'Éveil des Éléments ?",
+      "faqWhenAnswer": "Dès que possible. Je développe le jeu seul, et même si cela prend du temps, j'y mets tout mon cœur pour qu'il soit fun, jouable et magique dès le premier jour. Je préfère le sortir bien fini et que vous l'adoriez plutôt que de le bâcler.",
+      "faqWhereTitle": "Où suivre toutes les nouveautés ?",
+      "faqWhereAnswer": "Sur notre Discord. J'y partagerai des vidéos d'avancement, des scènes de jeu et des tests internes. Lorsque nous publierons des mises à jour sur Steam, vous les verrez là-bas en premier.",
+      "faqWorldTitle": "Que puis-je attendre de l'univers du jeu ?",
+      "faqWorldAnswer": "Nous dévoilerons très bientôt davantage de lore… mais voici un avant-goût : le jeu se déroule dans un monde où les dragons ont pris le contrôle des éléments, et les joueurs devront coopérer pour rétablir l'équilibre à la Taverne des Éléments. Chaque partie sera un défi face aux forces qui régissent cet univers.",
+      "faqSupportTitle": "Comment puis-je soutenir dès maintenant ?",
+      "faqSupportAnswer": "Ajoutez-le à votre liste de souhaits Steam. C'est gratuit, cela nous aide énormément et vous serez averti quand il sera prêt à jouer."
+    
     }
   }
 };

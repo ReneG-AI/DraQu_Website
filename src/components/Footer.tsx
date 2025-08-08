@@ -36,7 +36,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">{t('support')}</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('faq')}</Link></li>
+              <li><Link to="/faq" className="hover:text-primary transition-colors">{t('faq')}</Link></li>
               <li><a href="mailto:altf4studio.official@gmail.com" className="hover:text-primary transition-colors">{t('contactUs')}</a></li>
               <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('bugReports')}</Link></li>
               <li><a href="https://discord.gg/YNyBnuBVWG" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{t('community')}</a></li>
