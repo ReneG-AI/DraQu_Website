@@ -63,6 +63,8 @@ const resources = {
       "copyright": "© 2025 DraQu Studios. All rights reserved.",
       "tagline": "Awakening of the Elements - A cooperative card game where dragons and magic await your discovery.",
       "comingSoon": "Coming to Steam Soon",
+      "notFoundDescription": "Oops! Page not found.",
+      "backToHome": "Return to Home",
 
       // Privacy Policy
       "privacyPolicyTitle": "Privacy Policy",
@@ -135,6 +137,7 @@ const resources = {
       "faqPageTitle": "Frequently Asked Questions",
       "faqMetaDescription": "DraQu FAQ: release, community, world, and how to support the game.",
       "faqHero": "🔥 Frequently Asked Questions",
+      "faqHeroText": "Frequently Asked Questions",
       "faqIntro": "Answers about release timing, community, world-building, and supporting the project.",
       "faqQuote": "“A solo developer. A world of dragons. One mission: awaken the elements.”",
       "faqWhenTitle": "When is DraQu: Awakening of the Elements releasing?",
@@ -198,6 +201,8 @@ const resources = {
       "copyright": "© 2025 DraQu Studios. 版权所有。",
       "tagline": "元素觉醒 - 一款合作卡牌游戏，龙族和魔法等待你的发现。",
       "comingSoon": "即将登陆Steam",
+      "notFoundDescription": "抱歉！页面未找到。",
+      "backToHome": "返回首页",
 
       // Privacy Policy
       "privacyPolicyTitle": "隐私政策",
@@ -270,6 +275,7 @@ const resources = {
       "faqPageTitle": "常见问题",
       "faqMetaDescription": "DraQu 常见问题：发布时间、社区、世界观以及如何支持游戏。",
       "faqHero": "🔥 常见问题",
+      "faqHeroText": "常见问题",
       "faqIntro": "关于发布时间、社区动态、世界观设定以及如何支持项目的解答。",
       "faqQuote": "“一位独立开发者。一个龙的世界。一项使命：唤醒元素。”",
       "faqWhenTitle": "DraQu：元素觉醒什么时候发布？",
@@ -333,6 +339,8 @@ const resources = {
       "copyright": "© 2025 DraQu Studios. Todos los derechos reservados.",
       "tagline": "El Despertar de los Elementos - Un juego de cartas cooperativo donde dragones y magia esperan tu descubrimiento.",
       "comingSoon": "Próximamente en Steam",
+      "notFoundDescription": "¡Ups! Página no encontrada.",
+      "backToHome": "Volver al inicio",
 
       // Privacy Policy
       "privacyPolicyTitle": "Política de Privacidad",
@@ -405,6 +413,7 @@ const resources = {
       "faqPageTitle": "Preguntas Frecuentes",
       "faqMetaDescription": "Preguntas frecuentes de DraQu: fechas, comunidad, mundo del juego y cómo apoyar el desarrollo.",
       "faqHero": "🔥 Preguntas Frecuentes",
+      "faqHeroText": "Preguntas Frecuentes",
       "faqIntro": "Resolvemos tus dudas sobre fechas, comunidad y el mundo de DraQu.",
       "faqQuote": "“Un solo desarrollador. Un mundo de dragones. Una misión: despertar los elementos.”",
       "faqWhenTitle": "¿Cuándo sale DraQu: El Despertar de los Elementos?",

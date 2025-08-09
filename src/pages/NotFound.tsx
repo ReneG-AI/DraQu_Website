@@ -1,8 +1,11 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
+import { Button } from "@/components/ui/button";
 
 const NotFound = () => {
   const location = useLocation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     console.error(
@@ -12,15 +15,17 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <main className="min-h-[60vh] pt-28 container mx-auto px-6 flex items-center justify-center">
       <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
+        <h1 className="text-5xl font-extrabold bg-gradient-dragon bg-clip-text text-transparent">404</h1>
+        <p className="mt-4 text-lg text-muted-foreground">{t('notFoundDescription', { defaultValue: '¡Ups! Página no encontrada.' })}</p>
+        <div className="mt-6">
+          <Button variant="mystic" asChild>
+            <Link to="/">{t('backToHome', { defaultValue: 'Volver al inicio' })}</Link>
+          </Button>
+        </div>
       </div>
-    </div>
+    </main>
   );
 };
 

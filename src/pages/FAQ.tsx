@@ -111,8 +111,11 @@ const FAQ = () => {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <header className="pt-28 pb-12 bg-gradient-to-b from-background to-background/60">
         <div className="container mx-auto px-6">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-center bg-gradient-dragon bg-clip-text text-transparent">
-            {t("faqHero", { defaultValue: "🔥 Preguntas Frecuentes" })}
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight text-center">
+            <span aria-hidden="true" className="mr-2 align-middle">🔥</span>
+            <span className="bg-gradient-dragon bg-clip-text text-transparent">
+              {t("faqHeroText", { defaultValue: "Preguntas Frecuentes" })}
+            </span>
           </h1>
           <p className="mt-4 text-center text-muted-foreground max-w-2xl mx-auto">
             {t(
@@ -128,10 +131,10 @@ const FAQ = () => {
           <Accordion type="single" collapsible className="w-full divide-y divide-border/60 rounded-xl border border-border/60 bg-card/50 backdrop-blur-md shadow-lg">
             {items.map((it) => (
               <AccordionItem key={it.id} value={it.id}>
-                <AccordionTrigger className="text-left text-lg md:text-xl font-semibold text-foreground">
+                <AccordionTrigger className="text-left text-lg md:text-xl font-semibold text-foreground px-4 md:px-6">
                   {it.q}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed">
+                <AccordionContent className="text-muted-foreground leading-relaxed px-4 md:px-6">
                   {it.a}
                 </AccordionContent>
               </AccordionItem>
