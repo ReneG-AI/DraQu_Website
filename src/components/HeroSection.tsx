@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from "@/components/ui/button";
-import { Play } from "lucide-react";
 import heroImage from "@/assets/hero-tavern.jpg";
 import RegistrationModal from './RegistrationModal';
 
@@ -46,22 +45,14 @@ const HeroSection = () => {
           {t('heroDescription')}
         </p>
         
-        {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        {/* Action Button */}
+        <div className="flex justify-center">
           <Button 
             variant="mystic" 
             className="w-full sm:w-auto"
             onClick={() => setIsRegistrationOpen(true)}
           >
             {t('enterTavern')}
-          </Button>
-          <Button 
-            variant="outline" 
-            className="w-full sm:w-auto"
-            onClick={() => window.open('https://youtu.be/yKd9jKCQ7TA?si=MMuR3rQQt6iedQym', '_blank', 'noopener,noreferrer')}
-          >
-            <Play className="mr-2 h-4 w-4" />
-            {t('watchTrailer')}
           </Button>
         </div>
         
