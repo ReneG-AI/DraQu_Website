@@ -16,18 +16,6 @@ const GameFeatures = () => {
       descriptionKey: "dragonDesc",
       icon: "🐉",
       gradient: "bg-gradient-dragon"
-    },
-    {
-      titleKey: "magicTitle",
-      descriptionKey: "magicDesc",
-      icon: "✨",
-      gradient: "bg-gradient-ethereal"
-    },
-    {
-      titleKey: "epicTitle",
-      descriptionKey: "epicDesc",
-      icon: "📖",
-      gradient: "bg-gradient-mystic"
     }
   ];
 
@@ -46,7 +34,7 @@ const GameFeatures = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {features.map((feature, index) => (
             <Card 
               key={index} 
