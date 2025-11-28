@@ -63,10 +63,15 @@ const HeroSection = () => {
         
         {/* Coming Soon Badge */}
         <div className="mt-8">
-          <span className="inline-flex items-center px-4 py-2 rounded-full bg-mystic-purple/20 border border-mystic-purple/40 text-sm font-medium text-foreground">
+          <a 
+            href="https://store.steampowered.com/app/4031220/DraQu_El_Despertar_de_los_Elementos/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-4 py-2 rounded-full bg-mystic-purple/20 border border-mystic-purple/40 text-sm font-medium text-foreground hover:bg-mystic-purple/30 hover:border-mystic-purple/60 transition-all duration-300 cursor-pointer"
+          >
             <span className="w-2 h-2 bg-ethereal-blue rounded-full mr-2 animate-pulse"></span>
             {t('comingSoon')}
-          </span>
+          </a>
         </div>
       </div>
       

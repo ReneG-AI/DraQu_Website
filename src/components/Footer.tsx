@@ -28,7 +28,7 @@ const Footer = () => {
               <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('howToPlay')}</Link></li>
               <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('systemRequirements')}</Link></li>
               <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('releaseDate')}</Link></li>
-              <li><Link to="/" onClick={handleComingSoon} className="hover:text-primary transition-colors">{t('steamPage')}</Link></li>
+              <li><a href="https://store.steampowered.com/app/4031220/DraQu_El_Despertar_de_los_Elementos/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{t('steamPage')}</a></li>
             </ul>
           </div>
           

@@ -135,7 +135,21 @@ const FAQ = () => {
                   {it.q}
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground leading-relaxed px-4 md:px-6">
-                  {it.a}
+                  {it.id === 'support' ? (
+                    <>
+                      {it.a}{' '}
+                      <a 
+                        href="https://store.steampowered.com/app/4031220/DraQu_El_Despertar_de_los_Elementos/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:text-primary/80 underline transition-colors"
+                      >
+                        {t('steamPage')}
+                      </a>
+                    </>
+                  ) : (
+                    it.a
+                  )}
                 </AccordionContent>
               </AccordionItem>
             ))}

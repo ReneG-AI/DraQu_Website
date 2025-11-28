@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import GameFeatures from "@/components/GameFeatures";
+import SteamSection from "@/components/SteamSection";
 import DiscordSection from "@/components/DiscordSection";
 import SocialIcons from "@/components/SocialIcons";
 
@@ -8,6 +9,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <HeroSection />
       <GameFeatures />
+      <SteamSection />
       <DiscordSection />
       <SocialIcons variant="floating" />
     </div>
