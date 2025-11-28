@@ -55,7 +55,11 @@ const HeroSection = () => {
           >
             {t('enterTavern')}
           </Button>
-          <Button variant="outline" className="w-full sm:w-auto">
+          <Button 
+            variant="outline" 
+            className="w-full sm:w-auto"
+            onClick={() => window.open('https://youtu.be/yKd9jKCQ7TA?si=MMuR3rQQt6iedQym', '_blank', 'noopener,noreferrer')}
+          >
             <Play className="mr-2 h-4 w-4" />
             {t('watchTrailer')}
           </Button>
