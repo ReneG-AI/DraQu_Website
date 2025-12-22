@@ -11,7 +11,7 @@ const TrailerSection = () => {
       <div className="relative z-10 max-w-5xl mx-auto">
         {/* Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-dragon bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 heading-gradient">
             {t('watchTrailer')}
           </h2>
           <p className="text-lg text-mist-light max-w-2xl mx-auto">

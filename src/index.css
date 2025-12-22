@@ -113,3 +113,9 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .heading-gradient {
+    @apply bg-gradient-dragon bg-clip-text text-transparent;
+  }
+}

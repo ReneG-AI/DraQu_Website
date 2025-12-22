@@ -33,7 +33,7 @@ const GameFeatures = () => {
       
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-3">
+          <h2 className="text-4xl md:text-5xl font-bold heading-gradient mb-3">
             {t('nexusTitle')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -51,7 +51,7 @@ const GameFeatures = () => {
                 <div className={`w-14 h-14 mx-auto mb-4 rounded-full ${feature.gradient} flex items-center justify-center text-2xl shadow-epic group-hover:shadow-glow-ethereal transition-all duration-300`}>
                   <feature.Icon className="h-8 w-8 text-foreground" aria-hidden="true" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">
+                <h3 className="text-lg font-semibold heading-gradient mb-2">
                   {t(feature.titleKey)}
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">

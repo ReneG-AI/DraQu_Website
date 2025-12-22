@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const TARGET_TIMESTAMP = Date.UTC(2026, 1, 2, 21, 0, 0);
 
@@ -18,6 +19,7 @@ type CountdownTimerProps = {
 };
 
 const CountdownTimer = ({ className = '' }: CountdownTimerProps) => {
+  const { t } = useTranslation();
   const targetTimestamp = useMemo(() => TARGET_TIMESTAMP, []);
   const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(targetTimestamp));
 
@@ -32,19 +34,18 @@ const CountdownTimer = ({ className = '' }: CountdownTimerProps) => {
   return (
     <div className={`flex flex-wrap justify-center gap-4 ${className}`}>
       {[
-        { label: 'D', value: timeLeft.days },
-        { label: 'H', value: timeLeft.hours },
-        { label: 'M', value: timeLeft.minutes },
-        { label: 'S', value: timeLeft.seconds },
+        { label: t('timerDays'), value: timeLeft.days },
+        { label: t('timerHours'), value: timeLeft.hours },
+        { label: t('timerMinutes'), value: timeLeft.minutes },
       ].map((item) => (
         <div
           key={item.label}
-          className="min-w-[90px] rounded-2xl border border-border/60 bg-background/60 px-4 py-3 text-center shadow-lg"
+          className="min-w-[90px] rounded-2xl border border-ancient-gold/25 bg-black/35 backdrop-blur-sm px-4 py-3 text-center shadow-card"
         >
-          <div className="text-2xl font-semibold text-foreground tabular-nums">
+          <div className="text-2xl font-semibold text-foreground tabular-nums drop-shadow-[0_8px_18px_rgba(0,0,0,0.45)]">
             {String(item.value).padStart(2, '0')}
           </div>
-          <div className="text-xs uppercase tracking-[0.35em] text-muted-foreground">
+          <div className="text-xs uppercase tracking-[0.2em] text-ancient-gold/70">
             {item.label}
           </div>
         </div>

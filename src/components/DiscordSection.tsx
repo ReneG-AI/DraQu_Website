@@ -21,7 +21,7 @@ const DiscordSection = () => {
             </div>
           </div>
           
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-dragon bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold heading-gradient mb-6">
             {t('discordTitle')}
           </h2>
           

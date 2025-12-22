@@ -81,7 +81,7 @@ const FAQ = () => {
         <div className="container mx-auto px-6">
           <h1 id="faq-heading" className="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight text-center">
             <Flame className="mr-2 inline-block h-6 w-6 align-middle text-ancient-gold" aria-hidden="true" />
-            <span className="bg-gradient-dragon bg-clip-text text-transparent">
+            <span className="heading-gradient">
               {t("faqHeroText")}
             </span>
           </h1>
@@ -97,7 +97,7 @@ const FAQ = () => {
             {items.map((it) => (
               <AccordionItem key={it.id} value={it.id}>
                 <AccordionTrigger className="text-left text-lg md:text-xl font-semibold text-foreground px-4 md:px-6">
-                  {it.q}
+                  <span className="heading-gradient">{it.q}</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground leading-relaxed px-4 md:px-6">
                   {it.id === "playable" ? (

@@ -35,35 +35,35 @@ const Contact = () => {
   return (
     <main className="pt-24 pb-16 px-6">
       <div className="container mx-auto max-w-4xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-8 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold heading-gradient mb-8 text-center">
           {t('contactUs')}
         </h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Card className="bg-card/50 backdrop-blur-sm border-border/50">
             <CardHeader>
-              <CardTitle className="text-foreground">{t('contactGetInTouch')}</CardTitle>
+              <CardTitle className="heading-gradient">{t('contactGetInTouch')}</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">{t('contactDescription')}</p>
               
               <div className="space-y-3">
                 <div>
-                  <h3 className="font-semibold text-foreground">{t('contactGeneral')}</h3>
+                  <h3 className="font-semibold heading-gradient">{t('contactGeneral')}</h3>
                   <a className="text-muted-foreground hover:text-primary transition-colors" href={`mailto:${contactEmail}`}>
                     {contactEmail}
                   </a>
                 </div>
                 
                 <div>
-                  <h3 className="font-semibold text-foreground">{t('contactSupport')}</h3>
+                  <h3 className="font-semibold heading-gradient">{t('contactSupport')}</h3>
                   <a className="text-muted-foreground hover:text-primary transition-colors" href={`mailto:${contactEmail}`}>
                     {contactEmail}
                   </a>
                 </div>
                 
                 <div>
-                  <h3 className="font-semibold text-foreground">{t('contactBusiness')}</h3>
+                  <h3 className="font-semibold heading-gradient">{t('contactBusiness')}</h3>
                   <a className="text-muted-foreground hover:text-primary transition-colors" href={`mailto:${contactEmail}`}>
                     {contactEmail}
                   </a>
@@ -74,7 +74,7 @@ const Contact = () => {
 
           <Card className="bg-card/50 backdrop-blur-sm border-border/50">
             <CardHeader>
-              <CardTitle className="text-foreground">{t('contactSendMessage')}</CardTitle>
+              <CardTitle className="heading-gradient">{t('contactSendMessage')}</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">

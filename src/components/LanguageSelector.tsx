@@ -10,12 +10,12 @@ import {
 import { Globe } from 'lucide-react';
 
 const languages = [
-  { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'zh', name: '中文', flag: '🇨🇳' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
-  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'en', name: 'English', short: 'EN' },
+  { code: 'es', name: 'Español', short: 'ES' },
+  { code: 'fr', name: 'Français', short: 'FR' },
+  { code: 'zh', name: '中文', short: 'ZH' },
+  { code: 'ar', name: 'العربية', short: 'AR' },
+  { code: 'hi', name: 'हिन्दी', short: 'HI' },
 ];
 
 const LanguageSelector = () => {
@@ -34,19 +34,19 @@ const LanguageSelector = () => {
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
       <DropdownMenuTrigger asChild>
-        <Button 
-          variant="ghost" 
-          size="sm" 
+        <Button
+          variant="ghost"
+          size="sm"
           className="text-foreground hover:text-primary transition-colors gap-2"
           aria-label="Select language"
         >
           <Globe className="w-4 h-4" />
-          <span className="hidden sm:inline">{currentLanguage.flag} {currentLanguage.name}</span>
-          <span className="sm:hidden">{currentLanguage.flag}</span>
+          <span className="hidden sm:inline">{currentLanguage.short} {currentLanguage.name}</span>
+          <span className="sm:hidden">{currentLanguage.short}</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent 
-        align="end" 
+      <DropdownMenuContent
+        align="end"
         className="w-48 bg-background/95 backdrop-blur-md border border-border/50 shadow-xl"
       >
         {languages.map((language) => (
@@ -54,12 +54,12 @@ const LanguageSelector = () => {
             key={language.code}
             onClick={() => changeLanguage(language.code)}
             className={`cursor-pointer transition-colors ${
-              activeLanguage === language.code 
-                ? 'bg-primary/10 text-primary' 
+              activeLanguage === language.code
+                ? 'bg-primary/10 text-primary'
                 : 'hover:bg-primary/5 hover:text-primary'
             }`}
           >
-            <span className="mr-3">{language.flag}</span>
+            <span className="mr-3 text-xs font-semibold tracking-wide">{language.short}</span>
             <span>{language.name}</span>
           </DropdownMenuItem>
         ))}

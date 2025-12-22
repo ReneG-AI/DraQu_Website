@@ -27,27 +27,28 @@ const Footer = () => {
 
           {/* Game Links */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">{t('game')}</h3>
+            <h3 className="font-semibold heading-gradient mb-4">{t('game')}</h3>
             <ul className="space-y-2 text-muted-foreground">
+              <li><Link to="/" className="hover:text-primary transition-colors">{t('navHome')}</Link></li>
               <li><Link to="/#nexus" className="hover:text-primary transition-colors">{t('navNexus')}</Link></li>
-              <li><Link to="/#roadmap" className="hover:text-primary transition-colors">{t('navRoadmap')}</Link></li>
+              <li><Link to="/roadmap" className="hover:text-primary transition-colors">{t('navRoadmap')}</Link></li>
               <li><a href="https://store.steampowered.com/app/4031220/DraQu_El_Despertar_de_los_Elementos/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{t('steamPage')}</a></li>
             </ul>
           </div>
 
           {/* Support */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">{t('support')}</h3>
+            <h3 className="font-semibold heading-gradient mb-4">{t('support')}</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li><Link to="/faq" className="hover:text-primary transition-colors">{t('faq')}</Link></li>
-              <li><a href="mailto:altf4studio.official@gmail.com" className="hover:text-primary transition-colors">{t('contactUs')}</a></li>
+              <li><Link to="/contact" className="hover:text-primary transition-colors">{t('contact')}</Link></li>
               <li><a href="https://discord.gg/YNyBnuBVWG" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{t('community')}</a></li>
             </ul>
           </div>
 
           {/* Legal */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">{t('legal')}</h3>
+            <h3 className="font-semibold heading-gradient mb-4">{t('legal')}</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li><Link to="/privacy" className="hover:text-primary transition-colors">{t('privacyPolicy')}</Link></li>
               <li><Link to="/terms" className="hover:text-primary transition-colors">{t('termsOfService')}</Link></li>
