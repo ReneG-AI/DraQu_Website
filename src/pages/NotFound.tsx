@@ -2,6 +2,7 @@ import { useLocation, Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
+import drakeError from "@/assets/drake_error_sin_fondo.png";
 
 const NotFound = () => {
   const location = useLocation();
@@ -15,13 +16,22 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <main className="min-h-[60vh] pt-28 container mx-auto px-6 flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-5xl font-extrabold bg-gradient-dragon bg-clip-text text-transparent">404</h1>
-        <p className="mt-4 text-lg text-muted-foreground">{t('notFoundDescription', { defaultValue: '¡Ups! Página no encontrada.' })}</p>
-        <div className="mt-6">
+    <main className="min-h-[70vh] pt-28 container mx-auto px-6 flex items-center justify-center">
+      <div className="text-center max-w-xl">
+        <h1 className="text-4xl md:text-5xl font-extrabold uppercase tracking-[0.35em] text-ancient-gold">
+          Error 404
+        </h1>
+        <p className="mt-3 text-lg text-muted-foreground">{t('notFoundDescription')}</p>
+        <div className="mt-8 flex justify-center">
+          <img
+            src={drakeError}
+            alt="DraQu dragon"
+            className="w-full max-w-xs md:max-w-sm mx-auto drop-shadow-[0_24px_60px_rgba(0,0,0,0.45)]"
+          />
+        </div>
+        <div className="mt-8">
           <Button variant="mystic" asChild>
-            <Link to="/">{t('backToHome', { defaultValue: 'Volver al inicio' })}</Link>
+            <Link to="/">{t('backToHome')}</Link>
           </Button>
         </div>
       </div>

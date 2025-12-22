@@ -4,6 +4,7 @@ import GameFeatures from "@/components/GameFeatures";
 import SteamSection from "@/components/SteamSection";
 import DiscordSection from "@/components/DiscordSection";
 import SocialIcons from "@/components/SocialIcons";
+import RoadmapSection from "@/components/RoadmapSection";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <SteamSection />
       <GameFeatures />
       <DiscordSection />
+      <RoadmapSection />
       <SocialIcons variant="floating" />
     </div>
   );

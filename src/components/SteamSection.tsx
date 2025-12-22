@@ -25,7 +25,7 @@ const SteamSection = () => {
             {t('steamSectionTitle')}
           </h2>
           
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
             {t('steamSectionSubtitle')}
           </p>
 
@@ -45,11 +45,11 @@ const SteamSection = () => {
           <Button 
             variant="mystic" 
             size="lg"
-            className="text-lg px-8 py-4 h-auto shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+            className="text-lg px-8 py-4 h-auto shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 bg-[#1b2838] text-white hover:bg-[#223548]"
             onClick={() => window.open('https://store.steampowered.com/app/4031220/DraQu_El_Despertar_de_los_Elementos/', '_blank', 'noopener,noreferrer')}
           >
             <svg 
-              className="w-6 h-6 mr-3" 
+              className="w-6 h-6 mr-3 text-[#66c0f4]" 
               fill="currentColor" 
               viewBox="0 0 24 24"
               aria-hidden="true"

@@ -22,7 +22,8 @@ const LanguageSelector = () => {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
-  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
+  const activeLanguage = i18n.language.split('-')[0];
+  const currentLanguage = languages.find(lang => lang.code === activeLanguage) || languages[0];
 
   const changeLanguage = (langCode: string) => {
     i18n.changeLanguage(langCode);
@@ -53,7 +54,7 @@ const LanguageSelector = () => {
             key={language.code}
             onClick={() => changeLanguage(language.code)}
             className={`cursor-pointer transition-colors ${
-              i18n.language === language.code 
+              activeLanguage === language.code 
                 ? 'bg-primary/10 text-primary' 
                 : 'hover:bg-primary/5 hover:text-primary'
             }`}

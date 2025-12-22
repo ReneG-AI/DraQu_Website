@@ -4,7 +4,7 @@ const TrailerSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative py-20 px-6 overflow-hidden">
+    <section id="trailer" className="relative py-20 px-6 overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-mystic-purple/5 to-background" />
       
