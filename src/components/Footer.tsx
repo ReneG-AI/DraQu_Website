@@ -1,26 +1,29 @@
 import { useTranslation } from 'react-i18next';
 import SocialIcons from './SocialIcons';
 import { Link } from 'react-router-dom';
-import logoDraqu from '@/assets/Logo DraQu_Sin fondo.png';
 import logoAltF4 from '@/assets/Logo sin fondo ALT F4 GAMES.png';
 
 const Footer = () => {
   const { t } = useTranslation();
   return (
-    <footer className="bg-card border-t border-border/50 py-12">
+    <footer className="bg-card border-t border-border/50 py-10">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="inline-flex items-center mb-4" aria-label="Go to home">
-              <img src={logoDraqu} alt="DraQu" className="h-12 md:h-14 w-auto" />
+            <Link
+              to="/"
+              className="inline-flex items-center text-base md:text-lg font-semibold tracking-[0.2em] text-foreground hover:text-primary transition-colors mb-3"
+              aria-label="Go to home"
+            >
+              DraQu
             </Link>
-            <p className="text-muted-foreground mb-4 max-w-md">
+            <p className="text-sm text-muted-foreground mb-4 max-w-sm">
               {t('tagline')}
             </p>
-            <SocialIcons />
-            <div className="mt-5 flex items-center gap-3">
-              <img src={logoAltF4} alt="ALT F4 GAMES" className="h-8 w-auto opacity-80" />
+            <SocialIcons showSteam />
+            <div className="mt-4 flex items-center gap-3">
+              <img src={logoAltF4} alt="ALT F4 GAMES" className="h-7 w-auto opacity-80" />
               <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">ALT F4 GAMES</span>
             </div>
           </div>
@@ -58,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-border/50 mt-8 pt-8 text-center text-muted-foreground">
+        <div className="border-t border-border/50 mt-6 pt-6 text-center text-muted-foreground">
           <p>{t('copyright')}</p>
         </div>
       </div>
