@@ -57,11 +57,13 @@ const ShellLayout = () => (
   </div>
 );
 
+const baseName = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <Toaster />
     <Sonner />
-    <BrowserRouter>
+    <BrowserRouter basename={baseName || "/"}>
       <ScrollToTop />
       <ScrollToHash />
       <Routes>

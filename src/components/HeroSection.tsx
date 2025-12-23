@@ -20,7 +20,7 @@ const HeroSection = () => {
       {/* Overlay Gradient */}
       <div className="absolute inset-0 bg-gradient-hero" />
       <div className="absolute inset-0 bg-black/55" />
-      <div className="absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_35%,rgba(244,196,48,0.12),rgba(0,0,0,0))]" />
+      <div className="absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_35%,rgba(244,196,48,0.06),rgba(0,0,0,0))]" />
       
       {/* Floating Particles Effect */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -35,7 +35,7 @@ const HeroSection = () => {
         <div className="flex flex-col items-center">
           <h1 className="-mb-12 sm:-mb-14 md:-mb-28 lg:-mb-32 relative z-0 flex items-center justify-center">
             <span className="sr-only">{t('heroTitle')}</span>
-            <span className="pointer-events-none absolute -inset-6 md:-inset-10 rounded-full bg-[radial-gradient(circle_at_center,rgba(244,196,48,0.22),rgba(0,0,0,0))] blur-xl" />
+            <span className="pointer-events-none absolute -inset-6 md:-inset-10 rounded-full bg-[radial-gradient(circle_at_center,rgba(244,196,48,0.12),rgba(0,0,0,0))] blur-xl" />
             <img
               src={logoDraqu}
               alt="DraQu"

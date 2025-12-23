@@ -31,7 +31,8 @@ const Roadmap = () => {
     const title = `${t("roadmapPageTitle")} | DraQu`;
     document.title = title;
     setMetaTag("description", t("roadmapPageDescription"));
-    setCanonical(`${window.location.origin}/roadmap`);
+    const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
+    setCanonical(`${window.location.origin}${base}/roadmap`);
   }, [t]);
 
   return (

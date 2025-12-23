@@ -32,7 +32,8 @@ const FAQ = () => {
     const title = `${t("faqPageTitle")} | DraQu`;
     document.title = title;
     setMetaTag("description", t("faqMetaDescription"));
-    setCanonical(`${window.location.origin}/faq`);
+    const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
+    setCanonical(`${window.location.origin}${base}/faq`);
   }, [t]);
 
   const items = useMemo(
