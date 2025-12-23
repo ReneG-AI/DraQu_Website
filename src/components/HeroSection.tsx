@@ -33,7 +33,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-20 sm:pt-16 md:pt-12 pb-10 sm:-translate-y-8 md:-translate-y-16 lg:-translate-y-20">
         <div className="flex flex-col items-center">
-          <h1 className="-mb-12 sm:-mb-14 md:-mb-28 lg:-mb-32 relative z-0 flex items-center justify-center">
+          <h1 className="-mb-12 sm:-mb-14 md:-mb-28 lg:-mb-32 -translate-y-10 sm:translate-y-0 relative z-0 flex items-center justify-center">
             <span className="sr-only">{t('heroTitle')}</span>
             <span className="pointer-events-none absolute -inset-6 md:-inset-10 rounded-full bg-[radial-gradient(circle_at_center,rgba(244,196,48,0.12),rgba(0,0,0,0))] blur-xl" />
             <img
