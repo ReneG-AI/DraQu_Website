@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import drakeError from "@/assets/drake_error_sin_fondo.png";
+import logoDraqu from "@/assets/Logo DraQu_Sin fondo.png";
 
 const setMetaTag = (name: string, content: string) => {
   if (!content) return;
@@ -53,18 +54,24 @@ const Roadmap = () => {
         />
       </div>
 
-      <div className="relative z-10 container mx-auto px-6 pt-28 pb-20">
-        <header className="text-center">
-          <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground">DraQu</p>
-          <h1 className="mt-3 text-4xl md:text-6xl font-extrabold heading-gradient">
+      <div className="relative z-10 container mx-auto px-6 pt-20 sm:pt-16 md:pt-12 pb-20">
+        <header className="text-center -translate-y-12 sm:-translate-y-16 md:-translate-y-24 lg:-translate-y-28">
+          <div className="flex justify-center">
+            <img
+              src={logoDraqu}
+              alt="DraQu"
+              className="h-[clamp(14rem,34vw,34rem)] md:h-[clamp(20rem,42vw,46rem)] w-auto drop-shadow-[0_24px_60px_rgba(0,0,0,0.45)]"
+            />
+          </div>
+          <h1 className="-mt-24 sm:-mt-28 md:-mt-36 lg:-mt-44 text-4xl md:text-6xl font-extrabold heading-gradient relative z-10">
             {t("roadmapPageTitle")}
           </h1>
-          <p className="mt-4 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-1 md:mt-2 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
             {t("roadmapPageDescription")}
           </p>
         </header>
 
-        <section className="mt-12">
+        <section className="mt-6 md:mt-8">
           <div className="relative overflow-hidden rounded-[28px] border border-white/10 bg-black/35 px-6 py-10 backdrop-blur-md shadow-epic md:px-10">
             <div className="absolute inset-0 bg-[radial-gradient(60%_50%_at_20%_20%,rgba(244,196,48,0.18),rgba(0,0,0,0))]" />
             <div className="absolute -right-10 -bottom-20 h-64 w-64 rounded-full bg-[radial-gradient(circle_at_center,rgba(70,120,200,0.18),rgba(0,0,0,0))] blur-2xl" />
