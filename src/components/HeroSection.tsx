@@ -19,8 +19,8 @@ const HeroSection = () => {
       
       {/* Overlay Gradient */}
       <div className="absolute inset-0 bg-gradient-hero" />
-      <div className="absolute inset-0 bg-black/72" />
-      <div className="absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_35%,rgba(244,196,48,0.06),rgba(0,0,0,0))]" />
+      <div className="absolute inset-0 bg-black/85" />
+      <div className="absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_35%,rgba(244,196,48,0.03),rgba(0,0,0,0))]" />
       
       {/* Floating Particles Effect */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
